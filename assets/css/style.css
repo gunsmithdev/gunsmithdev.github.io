@@ -3,17 +3,17 @@
 	src: url(../fonts/BlackOpsOne-Regular.ttf) format('truetype');
 }
 body {
-	background-color: #27262c;
-	color: azure;
-}
-h1 {
-	font-size: 3rem;
-	font-family: 'Black Ops One';
-	color: #ac9036;
+	background-color: hsla(250, 7%, 16%, 1);
+	color: hsla(180, 100%, 97%, 1);
 }
 header {
 	text-align: center;
-	padding: 0.5in;
+	padding: 3rem;
+}
+.logo {
+	font-size: 3rem;
+	font-family: 'Black Ops One';
+	color: hsla(46, 52%, 44%, 1);
 }
 header p {
 	font-size: 1.5rem;
