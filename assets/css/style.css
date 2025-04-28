@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Black Ops One';
-	src: url(../fonts/BlackOpsOne-Regular.ttf);
+	src: url(../fonts/BlackOpsOne-Regular.ttf) format('truetype');
 }
 body {
 	background-color: #27262c;
