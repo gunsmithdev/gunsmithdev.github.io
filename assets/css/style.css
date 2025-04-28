@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Black Ops One';
+	src: url(../fonts/BlackOpsOne-Regular.ttf);
+}
+body {
+	background-color: #27262c;
+	color: azure;
+}
+h1 {
+	font-size: 3rem;
+	font-family: 'Black Ops One';
+	color: #ac9036;
+}
+header {
+	text-align: center;
+	padding: 0.5in;
+}
+header p {
+	font-size: 1.5rem;
+	letter-spacing: 1rem;
+	word-spacing: 1.1rem;
+}
