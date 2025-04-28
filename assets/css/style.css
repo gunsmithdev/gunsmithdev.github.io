@@ -9,6 +9,7 @@ body {
 header {
 	text-align: center;
 	padding: 3rem;
+    color: hsla(180, 100%, 97%, .5);
 }
 .logo {
 	font-size: 3rem;
