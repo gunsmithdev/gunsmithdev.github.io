@@ -11,7 +11,7 @@ header {
 	padding: 3rem;
     color: hsla(180, 100%, 97%, .5);
 }
-.logo {
+h1.logo {
 	font-size: 3rem;
 	font-family: 'Black Ops One';
 	color: hsla(46, 52%, 44%, 1);
