@@ -1,20 +1,27 @@
+:root {
+    --fundo: hsla(250, 7%, 16%, 1);
+    --logo-color: hsla(46, 52%, 44%, 1);
+    --branco: hsla(180, 100%, 97%, 1);
+    --branco-50: hsla(180, 100%, 97%, .5);
+}
+
 @font-face {
 	font-family: 'Black Ops One';
 	src: url(../fonts/BlackOpsOne-Regular.ttf) format('truetype');
 }
 body {
-	background-color: hsla(250, 7%, 16%, 1);
-	color: hsla(180, 100%, 97%, 1);
+	background-color: var(--fundo);
+	color: var(--branco);
 }
 header {
 	text-align: center;
 	padding: 3rem;
-    color: hsla(180, 100%, 97%, .5);
+    color: var(--branco-50);
 }
 h1.logo {
 	font-size: 2rem;
 	font-family: 'Black Ops One';
-	color: hsla(46, 52%, 44%, 1);
+	color: var(--logo-color);
 }
 header p {
 	font-size: 1rem;
