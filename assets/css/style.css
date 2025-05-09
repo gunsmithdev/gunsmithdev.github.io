@@ -12,16 +12,13 @@
 body {
 	background-color: var(--fundo);
 	color: var(--branco);
-}
-header {
-    height: 100vh; /* Fallback */
-    height: calc(var(--vh, 1vh) * 100);
+	height: 100vh; /* Fallback */
+	height: calc(var(--vh, 1vh) * 100);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: var(--branco-50);
 }
-header div {
+header {
 	text-align: center;
 }
 h1.logo {
@@ -29,8 +26,14 @@ h1.logo {
 	font-family: 'Black Ops One';
 	color: var(--logo-color);
 }
-header p {
+header a {
 	font-size: 1rem;
-	letter-spacing: 0.5rem;
-	word-spacing: 1.3rem;
+	letter-spacing: 0.4rem;
+	text-decoration: none;
+	color: var(--branco-50);
+	transition: all 500ms;
+}
+header a:hover {
+	color: var(--logo-color);
+	letter-spacing: 0.1rem;
 }
