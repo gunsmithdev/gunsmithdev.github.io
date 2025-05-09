@@ -3,6 +3,7 @@
 	--logo-color: hsla(46, 52%, 44%, 1);
 	--branco: hsla(180, 100%, 97%, 1);
 	--branco-50: hsla(180, 100%, 97%, 0.5);
+    font-size: 1vw;
 }
 
 @font-face {
@@ -23,10 +24,12 @@ header {
 }
 h1.logo {
 	font-family: 'Black Ops One';
+    font-size: 10rem;
 	color: var(--logo-color);
 }
 header a {
-	letter-spacing: 0.4rem;
+    font-size: 6.5rem;
+	letter-spacing: 1.5rem;
 	text-decoration: none;
 	color: var(--branco-50);
 	transition: all 500ms;
