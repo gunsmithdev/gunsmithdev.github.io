@@ -14,8 +14,7 @@
 body {
 	background-color: var(--fundo);
 	color: var(--branco);
-	height: 100vh; /* Fallback */
-	height: calc(var(--vh, 1vh) * 100);
+	height: calc(var(--vh, 100vh));
 	display: flex;
 	align-items: center;
 	justify-content: center;
