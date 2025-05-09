@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Black Ops One';
+	src: url(../fonts/BlackOpsOne-Regular.ttf) format('truetype');
+}
+
 :root {
 	--fundo: hsla(250, 7%, 16%, 1);
 	--logo-color: hsla(46, 52%, 44%, 1);
@@ -6,10 +11,6 @@
     font-size: 1vw;
 }
 
-@font-face {
-	font-family: 'Black Ops One';
-	src: url(../fonts/BlackOpsOne-Regular.ttf) format('truetype');
-}
 body {
 	background-color: var(--fundo);
 	color: var(--branco);
@@ -19,14 +20,23 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
 header {
 	text-align: center;
 }
+
 h1.logo {
 	font-family: 'Black Ops One';
     font-size: 10rem;
 	color: var(--logo-color);
+    transform: rotate(-2deg);
+    transition: all 500ms;
 }
+
+h1.logo:hover {
+    transform: rotate(3deg);
+}
+
 header a {
     font-size: 6.5rem;
 	letter-spacing: 1.5rem;
@@ -34,6 +44,7 @@ header a {
 	color: var(--branco-50);
 	transition: all 500ms;
 }
+
 header a:hover {
 	color: var(--logo-color);
 	letter-spacing: 0.1rem;
