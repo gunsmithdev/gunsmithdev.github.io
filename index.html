@@ -2,15 +2,26 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 		<title>{Gunsmith.DEV}</title>
 	</head>
 	<body>
 		<header>
-			<h1 class="logo">{Gunsmith.DEV}</h1>
-			<p>site em breve</p>
+			<div>
+				<h1 class="logo">{Gunsmith.DEV}</h1>
+				<p>site em breve</p>
+			</div>
 		</header>
 	</body>
+	<script>
+		let vh = window.innerHeight * 0.01
+		document.documentElement.style.setProperty('--vh', `${vh}px`)
+        
+		window.addEventListener('resize', () => {
+			let vh = window.innerHeight * 0.01
+			document.documentElement.style.setProperty('--vh', `${vh}px`)
+		})
+	</script>
 </html>

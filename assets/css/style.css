@@ -1,8 +1,8 @@
 :root {
-    --fundo: hsla(250, 7%, 16%, 1);
-    --logo-color: hsla(46, 52%, 44%, 1);
-    --branco: hsla(180, 100%, 97%, 1);
-    --branco-50: hsla(180, 100%, 97%, .5);
+	--fundo: hsla(250, 7%, 16%, 1);
+	--logo-color: hsla(46, 52%, 44%, 1);
+	--branco: hsla(180, 100%, 97%, 1);
+	--branco-50: hsla(180, 100%, 97%, 0.5);
 }
 
 @font-face {
@@ -14,9 +14,15 @@ body {
 	color: var(--branco);
 }
 header {
+    height: 100vh; /* Fallback */
+    height: calc(var(--vh, 1vh) * 100);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--branco-50);
+}
+header div {
 	text-align: center;
-	padding: 3rem;
-    color: var(--branco-50);
 }
 h1.logo {
 	font-size: 2rem;
