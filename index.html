@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 		<title>{Gunsmith.DEV}</title>
 	</head>
-	<script>document.documentElement.style.setProperty('--vh',`${window.innerHeight}px`);window.addEventListener('resize',()=>{document.documentElement.style.setProperty('--vh',`${window.innerHeight}px`)})</script>
+	<script>const readHeight=()=>{document.documentElement.style.setProperty('--vh',`${window.innerHeight}px`)};window.addEventListener('resize',readHeight)</script>
 	<body>
 		<header>
 			<h1 class="logo">{Gunsmith.DEV}</h1>
