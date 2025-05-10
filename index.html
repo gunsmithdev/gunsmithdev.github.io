@@ -8,10 +8,10 @@
 		<title>{Gunsmith.DEV}</title>
 	</head>
 	<script>
-        readHeight()
 		const readHeight = () => {
 			document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`)
 		}
+        readHeight()
 		window.addEventListener('resize', readHeight)
 	</script>
 	<body>
